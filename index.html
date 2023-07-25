@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">Landing Page</div>
+        <span class="sideMenuButton" onclick="openNavbar()">
+            ☰
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for
+		responsive website -->
+    <div class="sideNavigationBar" id="sideNavigationBar">
+        <a href="#" class="closeButton" onclick="closeNavbar()">
+
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>Digital Collection</h1>
+            <button>
+                <a href="https://github.com/sakshirajurkar">
+                    Explore More
+                </a>
+            </button>
+        </div>
+        <div class="side2">
+            <img src="landing_page.png" width="300">
+        </div>
+    </div>
+
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>Product</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Samsung Galaxy Watch 5
+                        </a>
+                        <img src="samsung.png" />
+                    </div>
+                    <p>
+                        The Galaxy Watch4 has an array of health and fitness tracking features you'd expect from a
+                        premium smartwatch, including workout tracking, heart rate monitoring, blood pressure measuring,
+                        an ECG feature, sleep tracking, blood oxygen measuring, and stress tracking.
+                    </p>
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Apple Watch Ultra
+                        </a>
+                        <img style="width: 250px;" src="apple5.png" />
+                    </div>
+
+                    <p>
+                        Safety features like Fall Detection,18 Emergency SOS, and high and low heart rate notifications
+                        make Apple Watch great for older family members, even if they don't own an iPhone. Calling,
+                        texting, and location sharing provide an easy way to stay connected with the family.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Google Pixel Watch
+                        </a>
+                        <img src="google.png" />
+                    </div>
+                    <p>
+                        The Google Pixel Watch can give you directions right from your wrist. Whether you're biking,
+                        driving, or walking, you can see turn-by-turn directions on your watch without taking out your
+                        phone. You can initiate directions from the app or by using Google Assistant.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                       
+                        </div>
+                       
+                        <div class="title1">
+                            <span>More Information</span>
+                        </div>
+                        <div class="content1">
+                            Greetings to all!
+                            We welcome you to the platform where we
+                            consistently strive to offer the best
+                            of products. This platform has been
+                            designed for every person wishing to
+                            expand their passion, share their
+                            choice and is ready to grab their smart
+                            watch. We have millions of articles,
+                            live as well as online shops, thousands
+                            of website and much more just for the
+                            pas inside you.Thank you for choosing
+                            and supporting us!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="contact-container" id="contact-us">
+
+            <div class="contact-title">
+                <b>Get in Touch</b>
+            </div>
+
+            <div class="contact-msgbox-info">
+
+                <div class="contact-msgbox">
+
+                    <form class="contact-msgbox-form">
+
+                        <b>Send us a Message</b>
+
+                        <div class="contact-msgbox-input-box">
+
+                            <input type="contact-msg-text" placeholder="Full Name" required>
+
+                        </div>
+
+                        <div class="contact-msgbox-input-box">
+
+                            <input type="contact-msg-text" placeholder="Email ID" required>
+
+                        </div>
+
+                        <div class="contact-msgbox-input-box">
+
+                            <input type="contact-msg-text" placeholder="Mobile Number" required>
+
+                        </div>
+
+                        <div class="contact-msgbox-input-box">
+
+                            <textarea id="" cols="30" rows="10" placeholder="Write Your Message Here ..."
+                                required></textarea>
+
+                        </div>
+
+                        <div class="contact-msgbox-input-box">
+
+                            <input type="submit" value="Send Now" id="send-btn">
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+                <div class="contact-info-container">
+
+                    <div class="contact-info">
+
+                        <div class="contact-info-icon">
+
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+
+                        </div>
+
+                        <div class="contact-info-details">
+
+                            <p>Warora, Chandrapur <br> Maharashtra , India</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="contact-info">
+
+                        <div class="contact-info-icon">
+
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+
+                        </div>
+
+                        <div class="contact-info-details">
+
+                            <p>digitalcollection@gmail.com</p>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="contact-info">
+
+                        <div class="contact-info-icon">
+
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+
+                        </div>
+
+                        <div class="contact-info-details">
+
+                            <p>+91 9527355273</p>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Created By
+                <a href="https://www.geeksforgeeks.org/" target="_blank">
+                    Ms. Sakshi G Rajurkar
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
